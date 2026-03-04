@@ -153,16 +153,16 @@ export default function SaJewellersPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",              title: "Excellent Quality & Service",              quote: "I purchased a necklace from Sweta Jewellers and was impressed with the quality and craftsmanship. The staff was very helpful and professional.",              name: "Priya Sharma",              role: "Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg",              imageAlt: "Priya Sharma"
+              id: "1",              title: "Excellent Quality & Service",              quote: "I purchased a necklace from Sweta Jewellers and was impressed with the quality and craftsmanship. The staff was very helpful and professional.",              name: "Priya Sharma",              role: "Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg?_wi=1",              imageAlt: "Priya Sharma"
             },
             {
-              id: "2",              title: "Perfect for My Wedding",              quote: "The bridal collection is absolutely stunning. Each piece is beautifully crafted. I couldn't have asked for better service for my special day.",              name: "Anjali Patel",              role: "Bride",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg",              imageAlt: "Anjali Patel"
+              id: "2",              title: "Perfect for My Wedding",              quote: "The bridal collection is absolutely stunning. Each piece is beautifully crafted. I couldn't have asked for better service for my special day.",              name: "Anjali Patel",              role: "Bride",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg?_wi=2",              imageAlt: "Anjali Patel"
             },
             {
-              id: "3",              title: "Trusted for Years",              quote: "My family has been buying jewellery from Sweta Jewellers for years. Their authenticity and reliability are unmatched in the area.",              name: "Meera Gupta",              role: "Loyal Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg",              imageAlt: "Meera Gupta"
+              id: "3",              title: "Trusted for Years",              quote: "My family has been buying jewellery from Sweta Jewellers for years. Their authenticity and reliability are unmatched in the area.",              name: "Meera Gupta",              role: "Loyal Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg?_wi=3",              imageAlt: "Meera Gupta"
             },
             {
-              id: "4",              title: "Amazing Custom Work",              quote: "I had a custom design made and the result exceeded my expectations. The team listened to every detail and delivered perfection.",              name: "Kavya Nair",              role: "Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg",              imageAlt: "Kavya Nair"
+              id: "4",              title: "Amazing Custom Work",              quote: "I had a custom design made and the result exceeded my expectations. The team listened to every detail and delivered perfection.",              name: "Kavya Nair",              role: "Customer",              imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businesswoman-wearing-formal-suit-standing-with-arms-folded_74855-10328.jpg?_wi=4",              imageAlt: "Kavya Nair"
             }
           ]}
         />
