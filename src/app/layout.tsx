@@ -1,45 +1,20 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
-import { DM_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 
-const manrope = Manrope({
-  variable: "--font-manrope",  subsets: ["latin"],
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sweta Jewellers - Premium Gold Jewellery in Andheri West, Mumbai",  description: "Trusted gold jewellery shop in Andheri West offering premium designs, bridal collections, and custom jewellery. Hallmarked gold, fast delivery, 4.6★ rated.",  keywords: "jeweller in Andheri West, gold jewellery shop Mumbai, bridal jewellery, custom jewellery design, hallmarked gold",  robots: {
-    index: true,
-    follow: true
-  },
-  openGraph: {
-    title: "Sweta Jewellers - Premium Gold Jewellery in Andheri West",    description: "Discover trusted, premium gold jewellery in Andheri West. Expert craftsmanship, hallmarked gold, custom designs.",    type: "website",    siteName: "Sweta Jewellers"
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Sweta Jewellers - Premium Gold Jewellery",    description: "Trusted local jeweller in Andheri West, Mumbai offering premium gold designs."
-  }
-};
+  title: "Sweta Jewellers | Premium Gold Jewellery in Andheri West",  description: "Trusted gold jewellery in Andheri West. Elegant designs, pure gold, trusted craftsmanship for every occasion."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${manrope.variable} ${dmSans.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1407,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }

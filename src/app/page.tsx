@@ -103,6 +103,9 @@ export default function SaJewellersPage() {
               reviewCount: "10",              imageSrc: "http://img.b2bpic.net/free-photo/jewel-details-hands-woman-wearing-sari-dress_23-2149565117.jpg",              imageAlt: "Elegant gold bangles"
             }
           ]}
+          buttons={[
+            { text: "Browse Full Collection", href: "#collections" }
+          ]}
         />
       </div>
 
